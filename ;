@@ -1,0 +1,42 @@
+[1mdiff --git a/src/main/java/com/example/makemytrip_ms/check.java b/src/main/java/com/example/makemytrip_ms/check.java[m
+[1mindex 011804a..1390036 100644[m
+[1m--- a/src/main/java/com/example/makemytrip_ms/check.java[m
+[1m+++ b/src/main/java/com/example/makemytrip_ms/check.java[m
+[36m@@ -1,4 +1,10 @@[m
+ package com.example.makemytrip_ms;[m
+ [m
+[32m+[m[32mimport org.springframework.web.bind.annotation.GetMapping;[m
+[32m+[m[32mimport org.springframework.web.bind.annotation.RestController;[m
+[32m+[m
+[32m+[m[32m@RestController[m
+ public class check {[m
+[31m-}[m
+[32m+[m[32m    @GetMapping("/check")[m
+[32m+[m[32m    public String getData() {return  "Checkout" ; }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/java/com/example/makemytrip_ms/checkout.java b/src/main/java/com/example/makemytrip_ms/checkout.java[m
+[1mindex f176e90..e01183b 100644[m
+[1m--- a/src/main/java/com/example/makemytrip_ms/checkout.java[m
+[1m+++ b/src/main/java/com/example/makemytrip_ms/checkout.java[m
+[36m@@ -1,10 +1,10 @@[m
+[31m-package com.example.makemytrip_ms;[m
+[31m-[m
+[31m-import org.springframework.web.bind.annotation.GetMapping;[m
+[31m-import org.springframework.web.bind.annotation.RestController;[m
+[31m-[m
+[31m-@RestController[m
+[31m-public class checkout {[m
+[31m-    @GetMapping("/checkout")[m
+[31m-    public String getData() {return  "Please book your hotel ticket for shimla 50% discount" ; }[m
+[31m-}[m
+[32m+[m[32m//package com.example.makemytrip_ms;[m
+[32m+[m[32m//[m
+[32m+[m[32m//import org.springframework.web.bind.annotation.GetMapping;[m
+[32m+[m[32m//import org.springframework.web.bind.annotation.RestController;[m
+[32m+[m[32m//[m
+[32m+[m[32m//@RestController[m
+[32m+[m[32m//public class checkout {[m
+[32m+[m[32m//    @GetMapping("/checkout")[m
+[32m+[m[32m//    public String getData() {return  "Please book your hotel ticket for shimla 50% discount" ; }[m
+[32m+[m[32m//}[m
